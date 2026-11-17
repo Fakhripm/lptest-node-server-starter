@@ -14,7 +14,7 @@
     "dev:express": "tsx watch src/express.ts",
     "dev:ws": "tsx watch src/ws.ts",
     "dev:vercel": "tsx watch scripts/vercel.dev.ts",
-    "build": "rimraf dist && tsc --noEmit && tsup",
+    "build": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\" && tsc --noEmit && tsup",
     "start": "node dist/node.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
