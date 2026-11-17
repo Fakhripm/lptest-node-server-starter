@@ -45,6 +45,7 @@
     "lint-staged": "^16.2.7",
     "simple-git-hooks": "^2.13.1",
     "taze": "^19.9.2",
+    "tsup": "^8.0.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vercel": "^50.0.0",
