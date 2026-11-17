@@ -58,5 +58,10 @@
     "*.{js,jsx,ts,tsx}": [
       "pnpm lint:fix"
     ]
+  },
+  "pnpm": {
+    "overrides": {
+      "proxy-addr": "2.0.8"
+    }
   }
 }
