@@ -26,12 +26,12 @@
     "postinstall": "npx simple-git-hooks"
   },
   "dependencies": {
+    "@antfu/eslint-config": "^6.6.1",
     "express": "^5.2.1",
     "h3": "2.0.1-rc.6",
     "ws": "^8.21.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.6.1",
     "@eiog/ts-config": "^0.0.3",
     "@types/express": "^5.0.6",
     "@types/node": "^25.0.1",
